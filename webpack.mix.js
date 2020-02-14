@@ -3,7 +3,7 @@ const mix = require('laravel-mix');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 // Set up project folders
-const themeFolder = 'themes/app';
+const themeFolder = 'themes/mytheme';
 const srcFolder = `${themeFolder}/src`;
 const distFolder = `${themeFolder}/dist`;
 
@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === 'development') {
     },
     plugins: [
       new StyleLintPlugin({
-        context: 'themes/app/src/',
+        context: 'themes/mytheme/src/',
         files: ['**/*.{scss,vue}'],
       }),
     ],
@@ -35,12 +35,12 @@ if (process.env.NODE_ENV === 'development') {
   mix.sourceMaps();
 }
 
-mix.setPublicPath(distFolder); // Places images processed in scss into themes/app/dist folder
-mix.setResourceRoot(`/_resources/${distFolder}/`); // Prefixes urls in processed css with _resources/themes/app/dist
+mix.setPublicPath(distFolder); // Places images processed in scss into themes/mytheme/dist folder
+mix.setResourceRoot(`/_resources/${distFolder}/`); // Prefixes urls in processed css with _resources/themes/mytheme/dist
 
 mix.js(`${srcFolder}/js/app.js`, distFolder)
   .sass(`${srcFolder}/scss/app.scss`, distFolder)
-  .sass('themes/app/src/scss/editor.scss', distFolder)
+  .sass('themes/mytheme/src/scss/editor.scss', distFolder)
   .options({ processCssUrls: true });
 
 if (process.env.NODE_ENV === 'production') {
