@@ -1,0 +1,6 @@
+---
+Name: silvershop-app
+---
+SilverStripe\Omnipay\Model\Payment:
+  allowed_gateways:
+    - 'Stripe'
