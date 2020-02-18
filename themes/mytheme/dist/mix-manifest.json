@@ -1,5 +1,8 @@
 {
     "/app.js": "/app.js",
     "/app.css": "/app.css",
-    "/editor.css": "/editor.css"
+    "/editor.css": "/editor.css",
+    "/app.min.css": "/app.min.css",
+    "/app.min.js": "/app.min.js",
+    "/editor.min.css": "/editor.min.css"
 }
