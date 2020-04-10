@@ -2,8 +2,8 @@
     "name": "silverstripe/platform-project",
     "description": "The SilverStripe Platform base project / installer.",
     "require": {
-        "php": ">=5.6",
-        "silverstripe/recipe-cms": "^4",
+        "php": ">=7.3",
+        "silverstripe/recipe-cms": "4.5.1",
         "silverstripe/dynamodb": "^4",
         "silverstripe/crontask": "^2",
         "silverstripe/environmentcheck": "^2",

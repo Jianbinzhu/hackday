@@ -1,4 +1,9 @@
+
 .productList {
   display: flex;
   flex-wrap: wrap;
+
+  .productItem {
+    width: 20%;
+  }
 }

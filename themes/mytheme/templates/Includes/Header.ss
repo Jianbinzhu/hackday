@@ -10,6 +10,6 @@
             </li>
             <% end_loop %>
         </ul>
-        <button @click="openMobileMenu" class="btn btn-info">Flyout Panel</button>
+        <%-- <button @click="openMobileMenu" class="btn btn-info">Flyout Panel</button> --%>
     </nav>
 </header>
