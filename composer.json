@@ -56,7 +56,7 @@
             "web.config"
         ],
         "expose": [
-            "themes/mytheme/dist"
+            "themes/FAV/dist"
         ],
         "resources-dir": "_resources"
     }

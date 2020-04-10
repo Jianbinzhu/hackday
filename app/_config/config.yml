@@ -7,7 +7,7 @@ Name: app
 SilverStripe\View\SSViewer:
   themes:
     - '$public'
-    - 'mytheme'
+    - 'FAV'
     - '$default'
 
 # Use utf8mb4 rather than utf8 for MySQL connections - this ensures some Asian languages and emojis are supported
