@@ -8,6 +8,8 @@
         </article>
     </div>
 
+    $ElementalArea
+
     <% if $Form %>
         $Form
     <% end_if %>
@@ -15,9 +17,9 @@
 
 <% include Footer %>
 
-<%-- <flyout-panel
+<flyout-panel
     :open="mobileMenuOpen"
     @close="closeMobileMenu"
 >
     <h1>Flyout Panel</h1>
-</flyout-panel> --%>
+</flyout-panel>

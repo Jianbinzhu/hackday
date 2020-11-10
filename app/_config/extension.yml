@@ -1,0 +1,3 @@
+DNADesign\ElementalUserForms\Model\ElementForm:
+  extensions:
+    - Firesphere\PartialUserforms\Extensions\UserDefinedFormExtension
